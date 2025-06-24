@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Ventana">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="770" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="bb1ef" class="javax.swing.JLabel" binding="Title">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Conversor de Divisas"/>
+        </properties>
+      </component>
+      <component id="fa2a3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cantidad"/>
+        </properties>
+      </component>
+      <component id="db61a" class="javax.swing.JTextField" binding="eTxtMonedaBase">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="48712" class="javax.swing.JComboBox" binding="SelectMonedaBase">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Dólar estadounidense – USD"/>
+            <item value="Euro – EUR"/>
+            <item value="Peso mexicano – MXN"/>
+            <item value="Yen japonés – JPY"/>
+            <item value="Afghani afgano – AFN"/>
+            <item value="Ariary malgache – MGA"/>
+            <item value="Baht tailandés – THB"/>
+            <item value="Balboa panameño – PAB"/>
+            <item value="Birr etíope – ETB"/>
+            <item value="Bolívar venezolano – VES"/>
+            <item value="Boliviano boliviano – BOB"/>
+            <item value="Cedi ghanés – GHS"/>
+            <item value="Chelín keniano – KES"/>
+            <item value="Chelín somalí – SOS"/>
+            <item value="Chelín tanzano – TZS"/>
+            <item value="Chelín ugandés – UGX"/>
+            <item value="Colón costarricense – CRC"/>
+            <item value="Córdoba nicaragüense – NIO"/>
+            <item value="Corona checa – CZK"/>
+            <item value="Corona danesa – DKK"/>
+            <item value="Corona islandesa – ISK"/>
+            <item value="Corona noruega – NOK"/>
+            <item value="Corona sueca – SEK"/>
+            <item value="Dalasi gambiano – GMD"/>
+            <item value="Dinar argelino – DZD"/>
+            <item value="Dinar bahreiní – BHD"/>
+            <item value="Dinar iraquí – IQD"/>
+            <item value="Dinar jordano – JOD"/>
+            <item value="Dinar kuwaití – KWD"/>
+            <item value="Dinar libio – LYD"/>
+            <item value="Dinar macedonio – MKD"/>
+            <item value="Dinar serbio – RSD"/>
+            <item value="Dirham marroquí – MAD"/>
+            <item value="Dirham de los Emiratos Árabes Unidos – AED"/>
+            <item value="Dólar australiano – AUD"/>
+            <item value="Dólar bahameño – BSD"/>
+            <item value="Dólar barbadense – BBD"/>
+            <item value="Dólar beliceño – BZD"/>
+            <item value="Dólar bermudeño – BMD"/>
+            <item value="Dólar bruneano – BND"/>
+            <item value="Dólar canadiense – CAD"/>
+            <item value="Dólar de Fiyi – FJD"/>
+            <item value="Dólar de Guyana – GYD"/>
+            <item value="Dólar de Hong Kong – HKD"/>
+            <item value="Dólar jamaiquino – JMD"/>
+            <item value="Dólar liberiano – LRD"/>
+            <item value="Dólar namibio – NAD"/>
+            <item value="Dólar neozelandés – NZD"/>
+            <item value="Dólar singapurense – SGD"/>
+            <item value="Dólar surinamés – SRD"/>
+            <item value="Dólar trinitense – TTD"/>
+            <item value="Dólar tuvaluano – TVD"/>
+            <item value="Dólar zimbabuense – ZWL"/>
+            <item value="Dong vietnamita – VND"/>
+            <item value="Dram armenio – AMD"/>
+            <item value="Dírham catarí – QAR"/>
+            <item value="Florín antillano neerlandés – ANG"/>
+            <item value="Florín arubeño – AWG"/>
+            <item value="Franco burundés – BIF"/>
+            <item value="Franco CFA de África Central – XAF"/>
+            <item value="Franco CFA de África Occidental – XOF"/>
+            <item value="Franco comorense – KMF"/>
+            <item value="Franco congoleño – CDF"/>
+            <item value="Franco guineano – GNF"/>
+            <item value="Franco ruandés – RWF"/>
+            <item value="Franco suizo – CHF"/>
+            <item value="Franco CFP – XPF"/>
+            <item value="Gourde haitiano – HTG"/>
+            <item value="Grivna ucraniana – UAH"/>
+            <item value="Guaraní paraguayo – PYG"/>
+            <item value="Kuna croata – HRK"/>
+            <item value="Kwacha malauí – MWK"/>
+            <item value="Kwacha zambiano – ZMW"/>
+            <item value="Kwanza angoleño – AOA"/>
+            <item value="Kip laosiano – LAK"/>
+            <item value="Lari georgiano – GEL"/>
+            <item value="Lempira hondureña – HNL"/>
+            <item value="Leone sierraleonés – SLL"/>
+            <item value="Leu moldavo – MDL"/>
+            <item value="Leu rumano – RON"/>
+            <item value="Lev búlgaro – BGN"/>
+            <item value="Libra egipcia – EGP"/>
+            <item value="Libra esterlina – GBP"/>
+            <item value="Libra falklandesa – FKP"/>
+            <item value="Libra gibraltareña – GIP"/>
+            <item value="Libra guerneseyana – GGP"/>
+            <item value="Libra isleña de Man – IMP"/>
+            <item value="Libra jeresiana – JEP"/>
+            <item value="Libra siria – SYP"/>
+            <item value="Libra sudanesa – SDG"/>
+            <item value="Lilangeni suazi – SZL"/>
+            <item value="Lira turca – TRY"/>
+            <item value="Loti lesotense – LSL"/>
+            <item value="Manat azerbaiyano – AZN"/>
+            <item value="Manat turcomano – TMT"/>
+            <item value="Marco convertible bosnio – BAM"/>
+            <item value="Metical mozambiqueño – MZN"/>
+            <item value="Ouguiya mauritano – MRU"/>
+            <item value="Pataca macanesa – MOP"/>
+            <item value="Peso argentino – ARS"/>
+            <item value="Peso chileno – CLP"/>
+            <item value="Peso colombiano – COP"/>
+            <item value="Peso cubano – CUP"/>
+            <item value="Peso dominicano – DOP"/>
+            <item value="Peso filipino – PHP"/>
+            <item value="Peso uruguayo – UYU"/>
+            <item value="Pula botsuano – BWP"/>
+            <item value="Quetzal guatemalteco – GTQ"/>
+            <item value="Real brasileño – BRL"/>
+            <item value="Rial iraní – IRR"/>
+            <item value="Rial omaní – OMR"/>
+            <item value="Rial yemení – YER"/>
+            <item value="Ringgit malayo – MYR"/>
+            <item value="Rublo bielorruso – BYN"/>
+            <item value="Rublo ruso – RUB"/>
+            <item value="Rufiyaa maldiva – MVR"/>
+            <item value="Rupia india – INR"/>
+            <item value="Rupia indonesia – IDR"/>
+            <item value="Rupia mauriciana – MUR"/>
+            <item value="Rupia nepalí – NPR"/>
+            <item value="Rupia pakistaní – PKR"/>
+            <item value="Rupia seychellense – SCR"/>
+            <item value="Rupia sri lankeza – LKR"/>
+            <item value="Samoyano tala – WST"/>
+            <item value="Shekel israelí – ILS"/>
+            <item value="Som kirguís – KGS"/>
+            <item value="Som uzbeko – UZS"/>
+            <item value="Somoni tayiko – TJS"/>
+            <item value="Tenge kazajo – KZT"/>
+            <item value="Tugrik mongol – MNT"/>
+            <item value="Wón surcoreano – KRW"/>
+            <item value="XDR – XDR"/>
+            <item value="Zloty polaco – PLN"/>
+          </model>
+        </properties>
+      </component>
+      <component id="c7caf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Divisa&#10;Destino&#10;" noi18n="true"/>
+        </properties>
+      </component>
+      <component id="4c3f2" class="javax.swing.JComboBox" binding="SelectMonedaDest">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Dólar estadounidense – USD  "/>
+            <item value="Euro – EUR  "/>
+            <item value="Peso mexicano – MXN  "/>
+            <item value="Yen japonés – JPY  "/>
+            <item value="Afghani afgano – AFN  "/>
+            <item value="Ariary malgache – MGA  "/>
+            <item value="Baht tailandés – THB  "/>
+            <item value="Balboa panameño – PAB  "/>
+            <item value="Birr etíope – ETB  "/>
+            <item value="Bolívar venezolano – VES  "/>
+            <item value="Boliviano boliviano – BOB  "/>
+            <item value="Cedi ghanés – GHS  "/>
+            <item value="Chelín keniano – KES  "/>
+            <item value="Chelín somalí – SOS  "/>
+            <item value="Chelín tanzano – TZS  "/>
+            <item value="Chelín ugandés – UGX  "/>
+            <item value="Colón costarricense – CRC  "/>
+            <item value="Córdoba nicaragüense – NIO  "/>
+            <item value="Corona checa – CZK  "/>
+            <item value="Corona danesa – DKK  "/>
+            <item value="Corona islandesa – ISK  "/>
+            <item value="Corona noruega – NOK  "/>
+            <item value="Corona sueca – SEK  "/>
+            <item value="Dalasi gambiano – GMD  "/>
+            <item value="Dinar argelino – DZD  "/>
+            <item value="Dinar bahreiní – BHD  "/>
+            <item value="Dinar iraquí – IQD  "/>
+            <item value="Dinar jordano – JOD  "/>
+            <item value="Dinar kuwaití – KWD  "/>
+            <item value="Dinar libio – LYD  "/>
+            <item value="Dinar macedonio – MKD  "/>
+            <item value="Dinar serbio – RSD  "/>
+            <item value="Dirham marroquí – MAD  "/>
+            <item value="Dirham de los Emiratos Árabes Unidos – AED  "/>
+            <item value="Dólar australiano – AUD  "/>
+            <item value="Dólar bahameño – BSD  "/>
+            <item value="Dólar barbadense – BBD  "/>
+            <item value="Dólar beliceño – BZD  "/>
+            <item value="Dólar bermudeño – BMD  "/>
+            <item value="Dólar bruneano – BND  "/>
+            <item value="Dólar canadiense – CAD  "/>
+            <item value="Dólar de Fiyi – FJD  "/>
+            <item value="Dólar de Guyana – GYD  "/>
+            <item value="Dólar de Hong Kong – HKD  "/>
+            <item value="Dólar jamaiquino – JMD  "/>
+            <item value="Dólar liberiano – LRD  "/>
+            <item value="Dólar namibio – NAD  "/>
+            <item value="Dólar neozelandés – NZD  "/>
+            <item value="Dólar singapurense – SGD  "/>
+            <item value="Dólar surinamés – SRD  "/>
+            <item value="Dólar trinitense – TTD  "/>
+            <item value="Dólar tuvaluano – TVD  "/>
+            <item value="Dólar zimbabuense – ZWL  "/>
+            <item value="Dong vietnamita – VND  "/>
+            <item value="Dram armenio – AMD  "/>
+            <item value="Dírham catarí – QAR  "/>
+            <item value="Florín antillano neerlandés – ANG  "/>
+            <item value="Florín arubeño – AWG  "/>
+            <item value="Franco burundés – BIF  "/>
+            <item value="Franco CFA de África Central – XAF  "/>
+            <item value="Franco CFA de África Occidental – XOF  "/>
+            <item value="Franco comorense – KMF  "/>
+            <item value="Franco congoleño – CDF  "/>
+            <item value="Franco guineano – GNF  "/>
+            <item value="Franco ruandés – RWF  "/>
+            <item value="Franco suizo – CHF  "/>
+            <item value="Franco CFP – XPF  "/>
+            <item value="Gourde haitiano – HTG  "/>
+            <item value="Grivna ucraniana – UAH  "/>
+            <item value="Guaraní paraguayo – PYG  "/>
+            <item value="Kuna croata – HRK  "/>
+            <item value="Kwacha malauí – MWK  "/>
+            <item value="Kwacha zambiano – ZMW  "/>
+            <item value="Kwanza angoleño – AOA  "/>
+            <item value="Kip laosiano – LAK  "/>
+            <item value="Lari georgiano – GEL  "/>
+            <item value="Lempira hondureña – HNL  "/>
+            <item value="Leone sierraleonés – SLL  "/>
+            <item value="Leu moldavo – MDL  "/>
+            <item value="Leu rumano – RON  "/>
+            <item value="Lev búlgaro – BGN  "/>
+            <item value="Libra egipcia – EGP  "/>
+            <item value="Libra esterlina – GBP  "/>
+            <item value="Libra falklandesa – FKP  "/>
+            <item value="Libra gibraltareña – GIP  "/>
+            <item value="Libra guerneseyana – GGP  "/>
+            <item value="Libra isleña de Man – IMP  "/>
+            <item value="Libra jeresiana – JEP  "/>
+            <item value="Libra siria – SYP  "/>
+            <item value="Libra sudanesa – SDG  "/>
+            <item value="Lilangeni suazi – SZL  "/>
+            <item value="Lira turca – TRY  "/>
+            <item value="Loti lesotense – LSL  "/>
+            <item value="Manat azerbaiyano – AZN  "/>
+            <item value="Manat turcomano – TMT  "/>
+            <item value="Marco convertible bosnio – BAM  "/>
+            <item value="Metical mozambiqueño – MZN  "/>
+            <item value="Ouguiya mauritano – MRU  "/>
+            <item value="Pataca macanesa – MOP  "/>
+            <item value="Peso argentino – ARS  "/>
+            <item value="Peso chileno – CLP  "/>
+            <item value="Peso colombiano – COP  "/>
+            <item value="Peso cubano – CUP  "/>
+            <item value="Peso dominicano – DOP  "/>
+            <item value="Peso filipino – PHP  "/>
+            <item value="Peso uruguayo – UYU  "/>
+            <item value="Pula botsuano – BWP  "/>
+            <item value="Quetzal guatemalteco – GTQ  "/>
+            <item value="Real brasileño – BRL  "/>
+            <item value="Rial iraní – IRR  "/>
+            <item value="Rial omaní – OMR  "/>
+            <item value="Rial yemení – YER  "/>
+            <item value="Ringgit malayo – MYR  "/>
+            <item value="Rublo bielorruso – BYN  "/>
+            <item value="Rublo ruso – RUB  "/>
+            <item value="Rufiyaa maldiva – MVR  "/>
+            <item value="Rupia india – INR  "/>
+            <item value="Rupia indonesia – IDR  "/>
+            <item value="Rupia mauriciana – MUR  "/>
+            <item value="Rupia nepalí – NPR  "/>
+            <item value="Rupia pakistaní – PKR  "/>
+            <item value="Rupia seychellense – SCR  "/>
+            <item value="Rupia sri lankeza – LKR  "/>
+            <item value="Samoyano tala – WST  "/>
+            <item value="Shekel israelí – ILS  "/>
+            <item value="Som kirguís – KGS  "/>
+            <item value="Som uzbeko – UZS  "/>
+            <item value="Somoni tayiko – TJS  "/>
+            <item value="Tenge kazajo – KZT  "/>
+            <item value="Tugrik mongol – MNT  "/>
+            <item value="Wón surcoreano – KRW  "/>
+            <item value="XDR – XDR  "/>
+            <item value="Zloty polaco – PLN  "/>
+          </model>
+        </properties>
+      </component>
+      <component id="a8094" class="javax.swing.JTextField" binding="eTxtMonedaDest">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fc312" class="javax.swing.JButton" binding="convertirButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Convertir"/>
+        </properties>
+      </component>
+      <component id="1356c" class="javax.swing.JButton" binding="limpiarButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Limpiar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
