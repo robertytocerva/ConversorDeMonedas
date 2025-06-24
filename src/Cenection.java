@@ -9,6 +9,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class Cenection {
+    private String ApiKey = "TuApiKey"; //Cabiar por tu api Key obtenida en https://www.exchangerate-api.com/
 
 
     public String generarConeccion( String MonedaBase, String MonedaConversion, String cantidad) throws IOException, InterruptedException {
@@ -20,7 +21,7 @@ public class Cenection {
 
         String json;
 
-        URI url = URI.create("https://v6.exchangerate-api.com/v6/cfe303fd77d037c9228bed8b/pair/"+MonedaBase+"/"+MonedaConversion+"/"+cantidad);
+        URI url = URI.create("https://v6.exchangerate-api.com/v6/"+ApiKey+"/pair/"+MonedaBase+"/"+MonedaConversion+"/"+cantidad);
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
